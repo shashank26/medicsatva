@@ -1,0 +1,143 @@
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy:'arca-majora-heavy';
+$red: #FF383F;
+
+.name::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background: $red;
+  height: 2px;
+  margin: 10px 0;
+}
+
+
+.description {
+  font-family: $font-arca-bold;
+  text-align: left;
+  color: #333;
+}
+
+.details ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 0 0 20px;
+  text-align: left;
+}
+
+.details ul li {
+  color: #333;
+  font-family: $font-arca-bold;
+  margin-top: 5px;
+}
+
+.name::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background: $red;
+  height: 2px;
+  margin: 10px 0;
+}
+
+
+
+
+@mixin styling($tile-padding, $tile-width, $tile-height) {
+
+
+  #product-view {
+    transition: all 0.3s;
+    width: $tile-width;
+    margin: 1px auto;
+    height: auto;
+    padding: $tile-padding;
+    box-shadow: 0 0 1px #eee;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+
+  #product-view:hover {
+    box-shadow: 0 0 30px #ccc;
+  }
+
+  .img {
+    display: inline-flex;
+    width: $tile-height;
+    height: $tile-height;
+    background-size: contain;
+    background-position: center center;
+    box-shadow: 0 0 1px #ddd;
+    background-repeat: no-repeat;
+  }
+
+
+  .info {
+    padding-left: $tile-padding;
+    display: inline-flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+
+  .name {
+    font-family: $font-arca-heavy;
+    text-align: left;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: #666;
+    margin-top: 20px;
+  }
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  @include styling($tile-padding: 20px, $tile-width:1200px, $tile-height:300px);
+
+  .info {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1199px) {
+
+  @include styling($tile-padding: 20px, $tile-width:740px, $tile-height:150px);
+
+  #product-view,
+  .img,
+  .info {
+    display: block;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  @include styling($tile-padding: 20px, $tile-width:80%, $tile-height:100px);
+
+  #product-view,
+  .img,
+  .info {
+    display: block;
+  }
+
+  .name {
+    font-size: 1.2em;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+
+}

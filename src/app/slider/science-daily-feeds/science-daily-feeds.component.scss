@@ -1,0 +1,39 @@
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy:'arca-majora-heavy';
+$red: #FF383F;
+
+a {
+  text-decoration: none;
+  color: $red !important;
+}
+
+.scienceDailyFeed {
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 auto;
+  // background: #333;
+  border-radius: 10px;
+  // box-shadow: 0 0 10px #333;
+}
+
+.info>div {
+  text-align: right;
+  margin: 5px 0 5px 10px;
+}
+
+.title {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: $font-arca-heavy;
+  font-size: 1em;
+  color: whitesmoke;
+  text-shadow: 0 0 1px black;
+}
+
+.pubDate {
+  font-family: $font-arca-bold;
+  text-align: right;
+  color: #bbb;
+  text-shadow: 0 0 1px black;
+}

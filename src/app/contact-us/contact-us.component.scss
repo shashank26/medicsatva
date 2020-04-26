@@ -1,0 +1,231 @@
+$backgroundTransparent:rgba(0, 0, 0, 0.4);
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy : 'arca-majora-heavy';
+$red: #FF383F;
+
+* {
+  transition: all 0.3s;
+}
+
+.contact-us-bg {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-image: url('/assets/background-images/contact-us.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+  width: 100vw;
+  transition: all 0.3s;
+}
+
+.contact-us-left-block {
+  background: $backgroundTransparent;
+  color: white;
+}
+
+.category-content {
+  margin: 0 auto;
+}
+
+.contact-us-right-block {
+  background: $backgroundTransparent;
+  display: flex;
+
+}
+
+.category-header-par {
+  width: 90%;
+  text-align: center;
+}
+
+.flex-box>div>input,
+textarea,
+button {
+  width: 100%;
+  padding: 15px 10px;
+  background: $backgroundTransparent;
+  border: 0px;
+  color: white;
+  box-shadow: 0 0 10px $backgroundTransparent;
+  //font-size: 1em;
+  font-family: $font-arca-bold;
+}
+
+.flex-box>div>input::placeholder,
+textarea::placeholder {
+  color: #bbb;
+}
+
+.flex-box>div>input:focus,
+textarea:focus,
+button:hover {
+  box-shadow: 0 0 50px $backgroundTransparent;
+}
+
+.flex-box {
+  text-align: center;
+}
+
+.flex-box>.glyph {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  background: $backgroundTransparent;
+  font-size: 0.9em;
+  line-height: 50px;
+  font-family: $font-arca-bold;
+  cursor:pointer;
+}
+
+.flex-box .glyph:hover{
+  color: $red;
+  box-shadow: 0 0 50px $backgroundTransparent;
+}
+
+.flex-box>.glyph-text {
+  font-family: $font-arca-bold;
+  display: inline-block;
+  color: white;
+  font-size: 0.9em;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+
+.error {
+  display: block;
+  position: absolute;
+  color: darkred;
+  bottom: -20px;
+  width: 100%;
+  font-family: $font-arca-bold;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 0.9em;
+}
+
+button:disabled {
+  background: rgba(150, 0, 0, 0.4);
+  cursor: not-allowed;
+}
+
+.error-bg {
+  background: rgba(150, 0, 0, 0.4) !important;
+}
+
+.status{
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+}
+
+.simple-text,.error-text,.success-text{
+  font-family: $font-arca-bold;
+  line-height: 10px;
+  margin-left: 20px;
+}
+.simple-text{
+  color:white;
+}
+.error-text{
+  color:darkred;
+}
+.success-text{
+  color:darkgreen;
+}
+
+.loading-bar {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: transparent;
+  border-top: 5px solid $backgroundTransparent;
+  border-left: 5px solid $backgroundTransparent;
+  border-right: 5px solid $backgroundTransparent;
+  border-bottom: 5px solid $red;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+
+@mixin styling($big-text, $paddingHeader, $margin-left, $width) {
+  .big-text {
+    text-align: center;
+    font-size: $big-text;
+    color: white;
+    justify-content: center;
+    font-family: $font-arca-heavy;
+  }
+
+  .flex-box>div {
+    display: inline-flex;
+    width: $width;
+    margin: $margin-left 0 $margin-left $margin-left;
+    position: relative;
+
+  }
+
+  .flex-box>.textarea,
+  .flex-box>.submit {
+    @if($margin-left==10px) {
+      width: calc(100% - 10px);
+    }
+
+    @else {
+      width: $width;
+    }
+  }
+
+  .contact-us-left-block {
+    background: $backgroundTransparent;
+    color: white;
+    padding-bottom: $paddingHeader;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  @include styling($big-text: 2.5em, $paddingHeader:auto, $margin-left:10px, $width:auto);
+}
+
+@media screen and (min-width: 769px) and (max-width:1199px) {
+
+  @include styling($big-text: 2em, $paddingHeader:40px, $margin-left:10px, $width:auto);
+
+  .contact-us-right-block{
+    overflow-y:scroll;
+    height: calc(100vh - 190px);
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  @include styling($big-text: 1.5em, $paddingHeader:40px, $margin-left:9px, $width:auto);
+
+  .contact-us-right-block{
+    overflow-y:scroll;
+    height: calc(100vh - 190px);
+  }
+
+}

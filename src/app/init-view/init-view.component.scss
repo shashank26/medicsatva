@@ -1,0 +1,164 @@
+$red: #FF383F;
+$white: #ffffff;
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy:'arca-majora-heavy';
+$gray:#111;
+
+* {
+  font-family: $font-arca-bold;
+}
+
+.bg-image {
+  background: url('/assets/candle.jpg');
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0px;
+  left: 0px;
+}
+
+#intro {
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+.name>div {
+  display: inline-flex;
+}
+
+.name1,
+.name2 {
+  letter-spacing: 4px;
+}
+
+.name1 {
+  color: $red;
+  text-decoration: underline;
+  text-decoration-color: $white;
+}
+
+.name2 {
+  color: $white;
+  text-decoration: overline;
+  text-decoration-color: $red;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 0;
+  width:300px;
+  border:0;
+  background: linear-gradient(90deg, $white 50%, $gray);
+  background-size: 400% 400%;
+  transition: all 0.5s;
+  color:$gray;
+  cursor: pointer;
+  background-position:0% 50%;
+}
+
+.button:hover {
+  color:$white;
+  background-position:100% 50%;
+}
+
+#init-view{
+  position: absolute;
+  left:0px;
+  text-align: center;
+  width: 100%;
+}
+
+@mixin styling($intro-width, $margin-top, $logo-height, $mini-intro-width, $name-font, $tagline-font, $mini-intro-font) {
+
+  .intro-container {
+    text-align: center;
+    width: $intro-width;
+    margin: 0 auto;
+  }
+
+  .intro-container>div,
+  .intro-container>div>div {
+    margin-top: $margin-top;
+  }
+
+  .logo {
+    height: $logo-height;
+  }
+
+  .name1,
+  .name2 {
+    font-size: $name-font;
+  }
+
+  .tagline {
+    font-weight: bolder;
+    font-size: $tagline-font;
+  }
+
+  .mini-intro {
+    width: $mini-intro-width;
+    font-weight: bolder;
+    font-size: $mini-intro-font;
+    margin: 0 auto 0 auto;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  @include styling($intro-width: 80vw,
+    $margin-top: 6vh,
+    $logo-height: 10vw,
+    $mini-intro-width:50vw,
+    $name-font:3vw,
+    $tagline-font:3vw,
+    $mini-intro-font:1.5vw);
+}
+
+@media screen and (min-width: 769px) and (max-width:1199px) {
+
+  @include styling($intro-width: 90vw,
+    $margin-top: 5vh,
+    $logo-height: 10vw,
+    $mini-intro-width:90vw,
+    $name-font:3vw,
+    $tagline-font:3vw,
+    $mini-intro-font:1.5vw);
+
+  .tagline>span::after {
+    content: '\a';
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  @include styling($intro-width: 100vw,
+    $margin-top: 6vh,
+    $logo-height: 15vw,
+    $mini-intro-width:90vw,
+    $name-font:8vw,
+    $tagline-font:6vw,
+    $mini-intro-font:4vw);
+
+  .tagline>span::after {
+    content: '\a';
+    white-space: pre;
+  }
+
+  .bg-image {
+    background-position: -60vw;
+  }
+}

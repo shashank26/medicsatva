@@ -1,0 +1,20 @@
+<div class="left-block products-left-block" @expandAnimation [ngClass]="{'hide-left-block' : showProducts}">
+  <div class="category-header-par par" @headerAnimation>
+    <span class="category-header">p</span>
+    <span class="category-header">r</span>
+    <span class="category-header">o</span>
+    <span class="category-header">d</span>
+    <span class="category-header">u</span>
+    <span class="category-header">c</span>
+    <span class="category-header">t</span>
+    <span class="category-header">s</span>
+  </div>
+</div>
+<div class="right-block products-right-block" @expandAnimationRight [ngClass]="{'expand-right-block' : showProducts}">
+  <div class="tile-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div id="footer" *ngIf="showProducts">
+    <app-footer></app-footer>
+  </div>
+</div>

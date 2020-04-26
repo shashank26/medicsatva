@@ -1,0 +1,97 @@
+<div class="contact-us-bg"></div>
+<div class="left-block contact-us-left-block" @expandAnimation>
+  <div class="category-header-par par" @headerAnimation>
+    <span class="category-header">c</span>
+    <span class="category-header">o</span>
+    <span class="category-header">n</span>
+    <span class="category-header">t</span>
+    <span class="category-header">a</span>
+    <span class="category-header">c</span>
+    <span class="category-header">t</span>
+    &nbsp;
+    <span class="category-header">u</span>
+    <span class="category-header">s</span>
+  </div>
+</div>
+<div class="right-block contact-us-right-block" @expandAnimationRight>
+  <div class="category-content">
+    <div class="form">
+      <div class="flex-box big-text">
+        <!-- Send us your query -->
+       
+      </div>
+      <form #queryForm="ngForm">
+          {{diagnostic}}
+        <div class="flex-box">
+          <div>
+            <input type="text" required #firstName="ngModel" [ngClass]="{'error-bg' : !(firstName.pristine || firstName.valid)}" name="query.firstName" class="input-text" placeholder="First Name" [(ngModel)]="query.firstName" />
+            <div class="error" *ngIf="!(firstName.pristine || firstName.valid)">First Name is required</div>
+          </div>
+          <div>
+            <input type="text" required #lastName="ngModel" name="query.lastName" [ngClass]="{'error-bg' : !(lastName.pristine || lastName.valid)}" class="input-text" placeholder="Last Name" [(ngModel)]="query.lastName" />
+            <div class="error" *ngIf="!(lastName.pristine || lastName.valid)">Last Name is required</div>
+          </div>
+        </div>
+        <div class="flex-box">
+          <div>
+            <input type="text" name="query.organization" class="input-text" placeholder="Organization" [(ngModel)]="query.organization" />
+          </div>
+          <div>
+            <input type="text" required #country="ngModel" autocomplete="off" name="query.country.name" [ngClass]="{'error-bg' : !(country.pristine || country.valid)}" class="input-text" placeholder="Country" [(ngModel)]="query.country.name" (input)="getCountriesLike($event)" (keydown)="hideSuggest($event)"/>
+            <app-suggest-box *ngIf="!hide" [countries]="countries" (selectedCountry)="selectedCountry($event)"></app-suggest-box>
+            <div class="error" *ngIf="!(country.pristine || country.valid)">Country is required</div>
+          </div>
+        </div>
+        <div class="flex-box">
+          <div>
+            <input type="email" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" [ngClass]="{'error-bg' : !(email.pristine || email.valid)}" #email="ngModel" name="query.email" class="input-text" placeholder="Email" [(ngModel)]="query.email" />
+            <div class="error" *ngIf="!(email.pristine || email.valid)">Email is required</div>
+          </div>
+          <div>
+            <input type="text" required #phoneNumber="ngModel" name="query.phoneNumber" [ngClass]="{'error-bg' : !(phoneNumber.valid || phoneNumber.pristine)}" class="input-text" placeholder="Phone Number" [(ngModel)]="query.phoneNumber" />
+            <div class="error" *ngIf="!(phoneNumber.pristine || phoneNumber.valid)">Phone number is required</div>
+          </div>
+        </div>
+        <div class="flex-box">
+          <div class="textarea">
+            <textarea type="text" required #q="ngModel" name="query.query" class="input-text" [ngClass]="{'error-bg' : !(q.pristine || q.valid)}" placeholder="Query" rows="5" [(ngModel)]="query.query"></textarea>
+            <div class="error" *ngIf="!(q.pristine || q.valid)">Query is required</div>
+          </div>
+        </div>
+        <div class="flex-box">
+          <div class="submit">
+            <button class="input-button" (click)="sendData()" [disabled]="!queryForm.form.valid">Submit</button>
+          </div>
+        </div>
+        <div class="flex-box" *ngIf="querySentSuccessfully != 0">
+            <div class="status">
+              <div class="loading-bar" *ngIf="querySentSuccessfully == 2"></div>
+              <p class="simple-text" *ngIf="querySentSuccessfully == 2">Sending...</p>
+              <p class="error-text" *ngIf="querySentSuccessfully == 3">Please retry again.</p>
+              <p class="success-text" *ngIf="querySentSuccessfully == 1">Query has been sent successfully.</p>
+            </div>
+          </div>
+      </form>
+      <div class="flex-box">
+        <div class="glyph"><i class="fa fa-facebook"></i></div>
+
+        <div class="glyph"><i class="fa fa-linkedin"></i></div>
+
+        <div class="glyph"><i class="fa fa-twitter"></i></div>
+      </div>
+
+      <div class="flex-box">
+        <div class="glyph-text">
+          <!-- <i class="fa fa-envelope" aria-hidden="true"></i> -->
+          Mail us :
+          &nbsp;&nbsp;<a href="mailto:enquiry@medicsatva.com">enquiry@medicsatva.com</a></div>
+      </div>
+      <div class="flex-box">
+        <div class="glyph-text">
+          <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
+          Call us :
+          &nbsp;&nbsp;+91-9711832200</div>
+      </div>
+    </div>
+  </div>
+</div>

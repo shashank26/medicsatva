@@ -1,0 +1,71 @@
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy:'arca-majora-heavy';
+$red: #FF383F;
+
+
+
+.person>div {
+  display: inline-block;
+  margin: 5px 0 0 10px;
+}
+
+.from {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: $font-arca-heavy;
+  font-size: 1em;
+  color: $red;
+  text-shadow: 0 0 1px black;
+}
+
+.country {
+  font-family: $font-arca-heavy;
+  text-align: right;
+  color: #fff;
+  text-shadow: 0 0 1px black;
+}
+
+.comment {
+  font-family: $font-arca-bold;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0 0 1px black;
+}
+
+
+@mixin styling($width, $font-size) {
+  .testimonial {
+    width: $width;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+
+  .comment {
+    font-size: $font-size;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  @include styling($width: 60%, $font-size:1.2em);
+}
+
+@media screen and (min-width: 769px) and (max-width:1199px) {
+
+  @include styling($width: 80%, $font-size:1.1em);
+}
+
+@media screen and (max-width:768px) {
+
+  @include styling($width: 100%, $font-size:1em);
+
+  .person>div {
+    text-align: left;
+  }
+
+
+}

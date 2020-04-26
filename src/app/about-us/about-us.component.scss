@@ -1,0 +1,84 @@
+.about-us-left-block,
+.about-us-right-block {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.about-us-left-block {
+  color: white;
+}
+
+
+.bg-about-us {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-image: url('/assets/background-images/about-us-2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+  width: 100vw;
+  transition: all 0.3s;
+}
+
+.about-us .container {
+  display: inline-block;
+}
+
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy:'arca-majora-heavy';
+$red: #FF383F;
+
+.about-us p {
+  text-shadow: 0 0 1px #000;
+  font-family: $font-arca-bold;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.about-us p .highlight {
+  font-family: $font-arca-bold;
+  color: $red;
+}
+
+
+@mixin styling($alignItems, $font-size) {
+  .about-us {
+    color: white;
+    font-size: $font-size;
+    text-align: left;
+    height: 100%;
+    
+    align-items: $alignItems;
+  }
+
+  .category-header-par {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  @include styling($alignItems: center, $font-size:1.2em);
+  .about-us {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1199px) {
+
+  @include styling($alignItems: left, $font-size:1em);
+  .about-us {
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  @include styling($alignItems: cente, $font-size:0.9em);
+  .about-us {
+    display: block;
+  }
+
+}

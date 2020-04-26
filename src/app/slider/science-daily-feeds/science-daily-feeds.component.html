@@ -1,0 +1,9 @@
+<div *ngIf="scienceDailyFeed">
+  <div @cascade *ngIf="scienceDailyFeed" class="scienceDailyFeed fade">
+    <div class="info">
+      <div class="title scienceDailyFeed-info">{{scienceDailyFeed.title}}</div>
+      <div><a class="title" href="{{scienceDailyFeed.link}}" target="_blank">Read more...</a></div>
+      <div class="pubDate scienceDailyFeed-info">{{scienceDailyFeed.publishedDate}}</div>
+    </div>
+  </div>
+</div>

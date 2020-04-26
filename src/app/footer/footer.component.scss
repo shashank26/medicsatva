@@ -1,0 +1,121 @@
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy:'arca-majora-heavy';
+$red: #FF383F;
+
+* {
+  color: white;
+}
+
+#footer {
+  height: calc(100vh - 185px);
+  background: #000;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 185px;
+}
+
+.logo h3 span:first-child {
+  color: $red;
+}
+
+.logo h3 span:last-child {
+  color: white;
+}
+
+
+
+@mixin styling($footer-width, $padding-left, $hor-width, $display, $min-height, $margin-top, $border) {
+
+
+  .flex {
+    width: $footer-width;
+    margin: 0 auto;
+    text-align: center;
+    display: $display;
+  }
+
+  .flex .hor {
+    padding-left: $padding-left;
+    display: inline-block;
+    width: $hor-width;
+    box-sizing: border-box;
+    text-align: left;
+    border-right: $border solid #999;
+    min-height: $min-height;
+  }
+
+  .hor h3,
+  ul {
+    margin: 0 auto;
+  }
+
+  .hor h3,
+  .hor h4,
+  .copyright h3,
+  h3 span {
+    font-family: $font-arca-heavy;
+  }
+
+  .hor ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .hor li,
+  li a {
+    font-family: $font-arca-bold;
+    margin-top: $margin-top;
+    color: #999;
+    transition: color 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .hor li:hover,
+  li a:hover {
+    color: $red;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 30px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  @include styling($footer-width: 1200px, $padding-left:40px, $hor-width:25%, $display:flex, $min-height:200px, $margin-top:30px, $border:1px);
+}
+
+@media screen and (min-width: 769px) and (max-width:1199px) {
+
+  @include styling($footer-width: 100%, $padding-left:10px, $hor-width:50%, $display:flex, $min-height:200px, $margin-top:20px, $border:1px);
+}
+
+@media screen and (max-width:768px) {
+
+  @include styling($footer-width: 100%, $padding-left:10px, $hor-width:100%, $display:block, $min-height:auto, $margin-top:3px, $border:0px);
+
+  .flex .hor{
+    margin-top:20px;
+    text-align: center;
+  }
+
+  .copyright {
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+
+  *{
+    font-size:1em !important;
+  }
+
+}

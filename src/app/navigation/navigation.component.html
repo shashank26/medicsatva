@@ -1,0 +1,79 @@
+<!-- <div class="navigation-container" [ngClass]="{'bg-black' : applyBlackBg }">
+  <div class="nav">
+    <div class="logo-container">
+      <a [routerLink]="['/navigation']" routerLinkActive="router-link-active">
+        <div class="logo-par">
+          <div class="logo">
+            <img src="/assets/logo.png" alt="MedicSatva" height="100%">
+          </div>
+          <div>
+            <span>Medic</span><span>Satva</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="nav-content">
+      <ul>
+        <li routerLinkActive="router-link-active">
+          <a [routerLink]="['about-us']">
+            <span class="nav-item">
+              About us
+            </span>
+          </a>
+        </li>
+        <li routerLinkActive="router-link-active">
+          <a [routerLink]="['products']">
+            <span class="nav-item">
+              Products
+            </span>
+          </a>
+        </li>
+        <li routerLinkActive="router-link-active">
+          <a [routerLink]="['contact-us']">
+            <span class="nav-item">
+              Contact us
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div> -->
+
+<div class="side-navigation-toggle" (click)="showMenu = !showMenu" [ngClass]="{'open-toggle' : showMenu }">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="side-navigation" [ngClass]="{'side-navigation-hide' : !showMenu }">
+  <ul>
+    <li>
+      <div class="logo-container">
+        <a [routerLink]="['/navigation']" routerLinkActive="router-link-active">
+          <div class="logo-par">
+            <div class="logo">
+              <img src="/assets/logo.png" alt="MedicSatva" height="100%">
+            </div>
+            <div>
+              <span>Medic</span><span>Satva</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+    <li>
+      ABOUT US
+    </li>
+    <li>
+      PRODUCTS
+    </li>
+    <li>
+      CONTACT US
+    </li>
+  </ul>
+</div>
+
+
+<div class='par' [@fadeAnimation]='o.isActivated ? o.activatedRoute : ""'>
+  <router-outlet #o='outlet'></router-outlet>
+</div>

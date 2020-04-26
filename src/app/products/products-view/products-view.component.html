@@ -1,0 +1,25 @@
+<div id="products-view" @fade>
+  <div class="fade">
+    <div class="category">
+      <div class="category-text">
+          <span>{{category}}</span>
+      </div>
+    </div>
+    <div class="products">
+      <!-- <div @cascade *ngIf="!productsLoaded">
+        <div class="loading">
+          <div class="container">
+            <div class="loading-bar cascade"></div>
+            <div class="message cascade">Loading Products...</div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="container" @cascade *ngIf="productsLoaded">
+        <div class="product-view" *ngFor="let product of products">
+          <app-product-view [product]="product" (selectedProduct)="selectedProduct($event)"></app-product-view>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,1259 @@
+[{
+    "slides": [{
+      "name": "Burette Set",
+      "description": "Used to deliver a fixed volume of IV fluid at a fixed rate, usually with added medication.",
+      "image": "Burette Set-big.png"
+    }, {
+      "name": "Urine bag",
+      "description": "Used to deliver a fixed volume of IV fluid at a fixed rate, usually with added medication.",
+      "image": "urine-bag-big1.png"
+    }, {
+      "name": "Three way stock cock",
+      "description": "In this device channels attach to an intravenous catheter or needle while other arms are used for administration of intravenous fluids.",
+      "image": "3waystockcockbig.png"
+    }, {
+      "name": "BP Monitor",
+      "description": "A blood pressure monitor is a device used to measure blood pressure. It is always used in conjunction with a means to determine at what pressure blood flow is just starting, and at what pressure it is unimpeded.",
+      "image": "bp-monitor.png"
+    }, {
+      "name": "Shoe Cover",
+      "description": "A shoe cover is a protective covering for shoes worn by surgical personnel working in a sterile environment in order to minimize contamination.",
+      "image": "shoe-cover.png"
+    }, {
+      "name": "Face Mask",
+      "description": "A device that covers the mouth, nose, or both of a patient who requires positive-pressure, noninvasive ventilation or continuous positive pressure-ventilation.",
+      "image": "face-mask.jpg"
+    }, {
+      "name": "Surgical Gown",
+      "description": "A protective garment worn by surgeons during operations.",
+      "image": "surgical-gown.jpg"
+    }, {
+      "name": "Oxygen mask",
+      "description": "A masklike device placed over the mouth and nose and through which oxygen is supplied from an attached storage tank.",
+      "image": "oxygen-mask.jpg"
+    }, {
+      "name": "Surgical gloves",
+      "description": "Medical examination gloves help prevent contamination between caregivers and patients.",
+      "image": "surgical-gloves.png"
+    }, {
+      "name": "Examination gloves",
+      "description": "Medical examination gloves help prevent contamination between caregivers and patients.",
+      "image": "examination-gloves.png"
+    }]
+  },
+  {
+    "countries": [{
+      "name": "Afghanistan",
+      "code": "AF"
+    }, {
+      "name": "Åland Islands",
+      "code": "AX"
+    }, {
+      "name": "Albania",
+      "code": "AL"
+    }, {
+      "name": "Algeria",
+      "code": "DZ"
+    }, {
+      "name": "American Samoa",
+      "code": "AS"
+    }, {
+      "name": "AndorrA",
+      "code": "AD"
+    }, {
+      "name": "Angola",
+      "code": "AO"
+    }, {
+      "name": "Anguilla",
+      "code": "AI"
+    }, {
+      "name": "Antarctica",
+      "code": "AQ"
+    }, {
+      "name": "Antigua and Barbuda",
+      "code": "AG"
+    }, {
+      "name": "Argentina",
+      "code": "AR"
+    }, {
+      "name": "Armenia",
+      "code": "AM"
+    }, {
+      "name": "Aruba",
+      "code": "AW"
+    }, {
+      "name": "Australia",
+      "code": "AU"
+    }, {
+      "name": "Austria",
+      "code": "AT"
+    }, {
+      "name": "Azerbaijan",
+      "code": "AZ"
+    }, {
+      "name": "Bahamas",
+      "code": "BS"
+    }, {
+      "name": "Bahrain",
+      "code": "BH"
+    }, {
+      "name": "Bangladesh",
+      "code": "BD"
+    }, {
+      "name": "Barbados",
+      "code": "BB"
+    }, {
+      "name": "Belarus",
+      "code": "BY"
+    }, {
+      "name": "Belgium",
+      "code": "BE"
+    }, {
+      "name": "Belize",
+      "code": "BZ"
+    }, {
+      "name": "Benin",
+      "code": "BJ"
+    }, {
+      "name": "Bermuda",
+      "code": "BM"
+    }, {
+      "name": "Bhutan",
+      "code": "BT"
+    }, {
+      "name": "Bolivia",
+      "code": "BO"
+    }, {
+      "name": "Bosnia and Herzegovina",
+      "code": "BA"
+    }, {
+      "name": "Botswana",
+      "code": "BW"
+    }, {
+      "name": "Bouvet Island",
+      "code": "BV"
+    }, {
+      "name": "Brazil",
+      "code": "BR"
+    }, {
+      "name": "British Indian Ocean Territory",
+      "code": "IO"
+    }, {
+      "name": "Brunei Darussalam",
+      "code": "BN"
+    }, {
+      "name": "Bulgaria",
+      "code": "BG"
+    }, {
+      "name": "Burkina Faso",
+      "code": "BF"
+    }, {
+      "name": "Burundi",
+      "code": "BI"
+    }, {
+      "name": "Cambodia",
+      "code": "KH"
+    }, {
+      "name": "Cameroon",
+      "code": "CM"
+    }, {
+      "name": "Canada",
+      "code": "CA"
+    }, {
+      "name": "Cape Verde",
+      "code": "CV"
+    }, {
+      "name": "Cayman Islands",
+      "code": "KY"
+    }, {
+      "name": "Central African Republic",
+      "code": "CF"
+    }, {
+      "name": "Chad",
+      "code": "TD"
+    }, {
+      "name": "Chile",
+      "code": "CL"
+    }, {
+      "name": "China",
+      "code": "CN"
+    }, {
+      "name": "Christmas Island",
+      "code": "CX"
+    }, {
+      "name": "Cocos (Keeling) Islands",
+      "code": "CC"
+    }, {
+      "name": "Colombia",
+      "code": "CO"
+    }, {
+      "name": "Comoros",
+      "code": "KM"
+    }, {
+      "name": "Congo",
+      "code": "CG"
+    }, {
+      "name": "Congo, The Democratic Republic of the",
+      "code": "CD"
+    }, {
+      "name": "Cook Islands",
+      "code": "CK"
+    }, {
+      "name": "Costa Rica",
+      "code": "CR"
+    }, {
+      "name": "Cote D'Ivoire",
+      "code": "CI"
+    }, {
+      "name": "Croatia",
+      "code": "HR"
+    }, {
+      "name": "Cuba",
+      "code": "CU"
+    }, {
+      "name": "Cyprus",
+      "code": "CY"
+    }, {
+      "name": "Czech Republic",
+      "code": "CZ"
+    }, {
+      "name": "Denmark",
+      "code": "DK"
+    }, {
+      "name": "Djibouti",
+      "code": "DJ"
+    }, {
+      "name": "Dominica",
+      "code": "DM"
+    }, {
+      "name": "Dominican Republic",
+      "code": "DO"
+    }, {
+      "name": "Ecuador",
+      "code": "EC"
+    }, {
+      "name": "Egypt",
+      "code": "EG"
+    }, {
+      "name": "El Salvador",
+      "code": "SV"
+    }, {
+      "name": "Equatorial Guinea",
+      "code": "GQ"
+    }, {
+      "name": "Eritrea",
+      "code": "ER"
+    }, {
+      "name": "Estonia",
+      "code": "EE"
+    }, {
+      "name": "Ethiopia",
+      "code": "ET"
+    }, {
+      "name": "Falkland Islands (Malvinas)",
+      "code": "FK"
+    }, {
+      "name": "Faroe Islands",
+      "code": "FO"
+    }, {
+      "name": "Fiji",
+      "code": "FJ"
+    }, {
+      "name": "Finland",
+      "code": "FI"
+    }, {
+      "name": "France",
+      "code": "FR"
+    }, {
+      "name": "French Guiana",
+      "code": "GF"
+    }, {
+      "name": "French Polynesia",
+      "code": "PF"
+    }, {
+      "name": "French Southern Territories",
+      "code": "TF"
+    }, {
+      "name": "Gabon",
+      "code": "GA"
+    }, {
+      "name": "Gambia",
+      "code": "GM"
+    }, {
+      "name": "Georgia",
+      "code": "GE"
+    }, {
+      "name": "Germany",
+      "code": "DE"
+    }, {
+      "name": "Ghana",
+      "code": "GH"
+    }, {
+      "name": "Gibraltar",
+      "code": "GI"
+    }, {
+      "name": "Greece",
+      "code": "GR"
+    }, {
+      "name": "Greenland",
+      "code": "GL"
+    }, {
+      "name": "Grenada",
+      "code": "GD"
+    }, {
+      "name": "Guadeloupe",
+      "code": "GP"
+    }, {
+      "name": "Guam",
+      "code": "GU"
+    }, {
+      "name": "Guatemala",
+      "code": "GT"
+    }, {
+      "name": "Guernsey",
+      "code": "GG"
+    }, {
+      "name": "Guinea",
+      "code": "GN"
+    }, {
+      "name": "Guinea-Bissau",
+      "code": "GW"
+    }, {
+      "name": "Guyana",
+      "code": "GY"
+    }, {
+      "name": "Haiti",
+      "code": "HT"
+    }, {
+      "name": "Heard Island and Mcdonald Islands",
+      "code": "HM"
+    }, {
+      "name": "Holy See (Vatican City State)",
+      "code": "VA"
+    }, {
+      "name": "Honduras",
+      "code": "HN"
+    }, {
+      "name": "Hong Kong",
+      "code": "HK"
+    }, {
+      "name": "Hungary",
+      "code": "HU"
+    }, {
+      "name": "Iceland",
+      "code": "IS"
+    }, {
+      "name": "India",
+      "code": "IN"
+    }, {
+      "name": "Indonesia",
+      "code": "ID"
+    }, {
+      "name": "Iran, Islamic Republic Of",
+      "code": "IR"
+    }, {
+      "name": "Iraq",
+      "code": "IQ"
+    }, {
+      "name": "Ireland",
+      "code": "IE"
+    }, {
+      "name": "Isle of Man",
+      "code": "IM"
+    }, {
+      "name": "Israel",
+      "code": "IL"
+    }, {
+      "name": "Italy",
+      "code": "IT"
+    }, {
+      "name": "Jamaica",
+      "code": "JM"
+    }, {
+      "name": "Japan",
+      "code": "JP"
+    }, {
+      "name": "Jersey",
+      "code": "JE"
+    }, {
+      "name": "Jordan",
+      "code": "JO"
+    }, {
+      "name": "Kazakhstan",
+      "code": "KZ"
+    }, {
+      "name": "Kenya",
+      "code": "KE"
+    }, {
+      "name": "Kiribati",
+      "code": "KI"
+    }, {
+      "name": "Korea, Democratic People'S Republic of",
+      "code": "KP"
+    }, {
+      "name": "Korea, Republic of",
+      "code": "KR"
+    }, {
+      "name": "Kuwait",
+      "code": "KW"
+    }, {
+      "name": "Kyrgyzstan",
+      "code": "KG"
+    }, {
+      "name": "Lao People'S Democratic Republic",
+      "code": "LA"
+    }, {
+      "name": "Latvia",
+      "code": "LV"
+    }, {
+      "name": "Lebanon",
+      "code": "LB"
+    }, {
+      "name": "Lesotho",
+      "code": "LS"
+    }, {
+      "name": "Liberia",
+      "code": "LR"
+    }, {
+      "name": "Libyan Arab Jamahiriya",
+      "code": "LY"
+    }, {
+      "name": "Liechtenstein",
+      "code": "LI"
+    }, {
+      "name": "Lithuania",
+      "code": "LT"
+    }, {
+      "name": "Luxembourg",
+      "code": "LU"
+    }, {
+      "name": "Macao",
+      "code": "MO"
+    }, {
+      "name": "Macedonia, The Former Yugoslav Republic of",
+      "code": "MK"
+    }, {
+      "name": "Madagascar",
+      "code": "MG"
+    }, {
+      "name": "Malawi",
+      "code": "MW"
+    }, {
+      "name": "Malaysia",
+      "code": "MY"
+    }, {
+      "name": "Maldives",
+      "code": "MV"
+    }, {
+      "name": "Mali",
+      "code": "ML"
+    }, {
+      "name": "Malta",
+      "code": "MT"
+    }, {
+      "name": "Marshall Islands",
+      "code": "MH"
+    }, {
+      "name": "Martinique",
+      "code": "MQ"
+    }, {
+      "name": "Mauritania",
+      "code": "MR"
+    }, {
+      "name": "Mauritius",
+      "code": "MU"
+    }, {
+      "name": "Mayotte",
+      "code": "YT"
+    }, {
+      "name": "Mexico",
+      "code": "MX"
+    }, {
+      "name": "Micronesia, Federated States of",
+      "code": "FM"
+    }, {
+      "name": "Moldova, Republic of",
+      "code": "MD"
+    }, {
+      "name": "Monaco",
+      "code": "MC"
+    }, {
+      "name": "Mongolia",
+      "code": "MN"
+    }, {
+      "name": "Montserrat",
+      "code": "MS"
+    }, {
+      "name": "Morocco",
+      "code": "MA"
+    }, {
+      "name": "Mozambique",
+      "code": "MZ"
+    }, {
+      "name": "Myanmar",
+      "code": "MM"
+    }, {
+      "name": "Namibia",
+      "code": "NA"
+    }, {
+      "name": "Nauru",
+      "code": "NR"
+    }, {
+      "name": "Nepal",
+      "code": "NP"
+    }, {
+      "name": "Netherlands",
+      "code": "NL"
+    }, {
+      "name": "Netherlands Antilles",
+      "code": "AN"
+    }, {
+      "name": "New Caledonia",
+      "code": "NC"
+    }, {
+      "name": "New Zealand",
+      "code": "NZ"
+    }, {
+      "name": "Nicaragua",
+      "code": "NI"
+    }, {
+      "name": "Niger",
+      "code": "NE"
+    }, {
+      "name": "Nigeria",
+      "code": "NG"
+    }, {
+      "name": "Niue",
+      "code": "NU"
+    }, {
+      "name": "Norfolk Island",
+      "code": "NF"
+    }, {
+      "name": "Northern Mariana Islands",
+      "code": "MP"
+    }, {
+      "name": "Norway",
+      "code": "NO"
+    }, {
+      "name": "Oman",
+      "code": "OM"
+    }, {
+      "name": "Pakistan",
+      "code": "PK"
+    }, {
+      "name": "Palau",
+      "code": "PW"
+    }, {
+      "name": "Palestinian Territory, Occupied",
+      "code": "PS"
+    }, {
+      "name": "Panama",
+      "code": "PA"
+    }, {
+      "name": "Papua New Guinea",
+      "code": "PG"
+    }, {
+      "name": "Paraguay",
+      "code": "PY"
+    }, {
+      "name": "Peru",
+      "code": "PE"
+    }, {
+      "name": "Philippines",
+      "code": "PH"
+    }, {
+      "name": "Pitcairn",
+      "code": "PN"
+    }, {
+      "name": "Poland",
+      "code": "PL"
+    }, {
+      "name": "Portugal",
+      "code": "PT"
+    }, {
+      "name": "Puerto Rico",
+      "code": "PR"
+    }, {
+      "name": "Qatar",
+      "code": "QA"
+    }, {
+      "name": "Reunion",
+      "code": "RE"
+    }, {
+      "name": "Romania",
+      "code": "RO"
+    }, {
+      "name": "Russian Federation",
+      "code": "RU"
+    }, {
+      "name": "RWANDA",
+      "code": "RW"
+    }, {
+      "name": "Saint Helena",
+      "code": "SH"
+    }, {
+      "name": "Saint Kitts and Nevis",
+      "code": "KN"
+    }, {
+      "name": "Saint Lucia",
+      "code": "LC"
+    }, {
+      "name": "Saint Pierre and Miquelon",
+      "code": "PM"
+    }, {
+      "name": "Saint Vincent and the Grenadines",
+      "code": "VC"
+    }, {
+      "name": "Samoa",
+      "code": "WS"
+    }, {
+      "name": "San Marino",
+      "code": "SM"
+    }, {
+      "name": "Sao Tome and Principe",
+      "code": "ST"
+    }, {
+      "name": "Saudi Arabia",
+      "code": "SA"
+    }, {
+      "name": "Senegal",
+      "code": "SN"
+    }, {
+      "name": "Serbia and Montenegro",
+      "code": "CS"
+    }, {
+      "name": "Seychelles",
+      "code": "SC"
+    }, {
+      "name": "Sierra Leone",
+      "code": "SL"
+    }, {
+      "name": "Singapore",
+      "code": "SG"
+    }, {
+      "name": "Slovakia",
+      "code": "SK"
+    }, {
+      "name": "Slovenia",
+      "code": "SI"
+    }, {
+      "name": "Solomon Islands",
+      "code": "SB"
+    }, {
+      "name": "Somalia",
+      "code": "SO"
+    }, {
+      "name": "South Africa",
+      "code": "ZA"
+    }, {
+      "name": "South Georgia and the South Sandwich Islands",
+      "code": "GS"
+    }, {
+      "name": "Spain",
+      "code": "ES"
+    }, {
+      "name": "Sri Lanka",
+      "code": "LK"
+    }, {
+      "name": "Sudan",
+      "code": "SD"
+    }, {
+      "name": "Suriname",
+      "code": "SR"
+    }, {
+      "name": "Svalbard and Jan Mayen",
+      "code": "SJ"
+    }, {
+      "name": "Swaziland",
+      "code": "SZ"
+    }, {
+      "name": "Sweden",
+      "code": "SE"
+    }, {
+      "name": "Switzerland",
+      "code": "CH"
+    }, {
+      "name": "Syrian Arab Republic",
+      "code": "SY"
+    }, {
+      "name": "Taiwan, Province of China",
+      "code": "TW"
+    }, {
+      "name": "Tajikistan",
+      "code": "TJ"
+    }, {
+      "name": "Tanzania, United Republic of",
+      "code": "TZ"
+    }, {
+      "name": "Thailand",
+      "code": "TH"
+    }, {
+      "name": "Timor-Leste",
+      "code": "TL"
+    }, {
+      "name": "Togo",
+      "code": "TG"
+    }, {
+      "name": "Tokelau",
+      "code": "TK"
+    }, {
+      "name": "Tonga",
+      "code": "TO"
+    }, {
+      "name": "Trinidad and Tobago",
+      "code": "TT"
+    }, {
+      "name": "Tunisia",
+      "code": "TN"
+    }, {
+      "name": "Turkey",
+      "code": "TR"
+    }, {
+      "name": "Turkmenistan",
+      "code": "TM"
+    }, {
+      "name": "Turks and Caicos Islands",
+      "code": "TC"
+    }, {
+      "name": "Tuvalu",
+      "code": "TV"
+    }, {
+      "name": "Uganda",
+      "code": "UG"
+    }, {
+      "name": "Ukraine",
+      "code": "UA"
+    }, {
+      "name": "United Arab Emirates",
+      "code": "AE"
+    }, {
+      "name": "United Kingdom",
+      "code": "GB"
+    }, {
+      "name": "United States",
+      "code": "US"
+    }, {
+      "name": "United States Minor Outlying Islands",
+      "code": "UM"
+    }, {
+      "name": "Uruguay",
+      "code": "UY"
+    }, {
+      "name": "Uzbekistan",
+      "code": "UZ"
+    }, {
+      "name": "Vanuatu",
+      "code": "VU"
+    }, {
+      "name": "Venezuela",
+      "code": "VE"
+    }, {
+      "name": "Viet Nam",
+      "code": "VN"
+    }, {
+      "name": "Virgin Islands, British",
+      "code": "VG"
+    }, {
+      "name": "Virgin Islands, U.S.",
+      "code": "VI"
+    }, {
+      "name": "Wallis and Futuna",
+      "code": "WF"
+    }, {
+      "name": "Western Sahara",
+      "code": "EH"
+    }, {
+      "name": "Yemen",
+      "code": "YE"
+    }, {
+      "name": "Zambia",
+      "code": "ZM"
+    }, {
+      "name": "Zimbabwe",
+      "code": "ZW"
+    }]
+  },
+  {
+    "products": [{
+      "category": "critical care range",
+      "products": [{
+        "name": "oxygen mask",
+        "description": "A device that is connected to a cylinder of oxygen by means of a tube & placed over the nose and mouth of someone who is having difficulty in breathing in order to help them breathe more",
+        "image": "oxygen-mask.jpg"
+      }, {
+        "name": "nebulizer mask",
+        "description": "A face mask used to inhale mist of drug particles generated through a nebulizer machine",
+        "image": "nebulizer-mask.jpg"
+      }, {
+        "name": "nasal oxygen cannula",
+        "description": "A device used to deliver supplemental oxygen or increased airflow to a patient or person in need of respiratory help",
+        "image": "nasal-oxygen-cannula.jpg"
+      }]
+    }, {
+      "category": "general surgery accessories",
+      "products": [{
+        "name": "surgical gown",
+        "description": "A protective garment worn by surgeons during operations.",
+        "image": "surgical-gown.jpg"
+      }, {
+        "name": "shoe cover",
+        "description": "A shoe cover is a protective covering for shoes worn by surgical personnel working in a sterile environment in order to minimize contamination.",
+        "image": "shoe-cover.png"
+      }, {
+        "name": "face mask",
+        "description": "A device that covers the mouth, nose, or both of a patient who requires positive-pressure, noninvasive ventilation or continuous positive pressure-ventilation.",
+        "image": "face-mask.jpg"
+      }, {
+        "name": "surgeon and nurse cap",
+        "description": "",
+        "image": "surgeon-and-nurse-cap.jpg"
+      }]
+    }, {
+      "category": "home health care",
+      "products": [{
+        "name": "Digital Blood Pressure Monitor",
+        "description": "A blood pressure monitor is a device used to measure blood pressure. It is always used in conjunction with a means to determine at what pressure blood flow is just starting, and at what pressure it is unimpeded.",
+        "image": "bp-monitor.png"
+      }, {
+        "name": "digital weighing scale",
+        "description": "A digital device used to measure Weight , Body Fat , BMI",
+        "image": "digital-weighing-scale.jpg"
+      }, {
+        "name": "digital flexible thermometer",
+        "description": "A probe type used for oral, rectal and underarm temperature measurements",
+        "image": "digital-flexible-thermometer.jpg"
+      }, {
+        "name": "nebulizer machine",
+        "description": "A drug delivery device used to administer medication in the form of a mist inhaled into the lungs",
+        "image": "nebulizer-machine.jpg"
+      }]
+    }, {
+      "category": "hospital furniture",
+      "products": [{
+        "name": "hospital bed",
+        "description": "A bed specially designed for hospitalized patients or others in need of some form of health care. These beds have special features both for the comfort and well-being of the patient and for the convenience of health care workers.",
+        "image": "hospital-bed.png"
+      }, {
+        "name": "OT table",
+        "description": "An operating table, sometimes called operating room table, is the table on which the patient lies during a surgical operation. This surgical equipment is usually found inside the surgery room of a hospital",
+        "image": "ot-table.jpg"
+      }, {
+        "name": "Hospital table",
+        "description": "It is a table designed for patients who will be limited to their bed for long stretches of time. Typically, these tables have a four-wheeled base that slides beneath the bed, and a rectangular table-top, both of which attach to the bracket-shaped frame",
+        "image": "hospital-table.jpg"
+      }, {
+        "name": "attendant bed",
+        "description": "A bed specially designed for patient’s attendant",
+        "image": "attendant-bed.jpg"
+      }, {
+        "name": "delivery bed",
+        "description": "A bed specially designed for woman in labor to enhance the birthing process & and to keep the user safe and capable of delivering a baby on time.",
+        "image": "delivery-bed.jpg"
+      }, {
+        "name": "Patient Transfer Trolley Bed",
+        "description": "It is a type of cot  for moving patients who require medical care . It is often equipped with variable height frames, wheels, tracks, or skids",
+        "image": "patient-transfer-trolley-bed.jpg"
+      }, {
+        "name": "Multi Purpose Exercise Chair",
+        "description": "A specially designed chair used by therapeutic patients post any surgery or operation for muscle training",
+        "image": "multi-purpose-exercise-chair.jpg"
+      }, {
+        "name": "Lockers",
+        "description": "A drawer, cupboard, or compartment that may be closed with a lock especially : one for individual storage use in hospitals",
+        "image": "lockers.jpg"
+      }, {
+        "name": "Single Footstep",
+        "description": "A tabular framework used as a stair for patients",
+        "image": "single-foot-step.jpg"
+      }, {
+        "name": "Three Fold Partition Screen",
+        "description": "A folding screen having three frames or panels, usually  made from dark green upholstery and used as privacy screen or room divider in hospitals.",
+        "image": "three-fold-partition-screen.jpg"
+      }, {
+        "name": "Kick Bucket",
+        "description": "A medical receptacle, usually made of stainless steel, which is mounted on wheels for easy movement around the operating room by the foot",
+        "image": "kick-bucket.jpg"
+      }, {
+        "name": "Instrument trolley",
+        "description": "A wheeled shelving unit used to move medical instruments in hospital during an operation or a procedure",
+        "image": "instrument-trolley.jpg"
+      }, {
+        "name": "Medicine Trolley",
+        "description": "A wheeled shelving unit used to move medicines in a hospital",
+        "image": "medicine-trolley.jpg"
+      }, {
+        "name": "Saline Stand 5 Castors",
+        "description": "A device which is used to hang the bottles of glucose and blood in hospitals . It comes with an adjustable rod and plastic base 5cms castors",
+        "image": "saline-stand-5-castor.jpg"
+      }, {
+        "name": "Footstep",
+        "description": "A tabular framework used as a stair for patients",
+        "image": "foot-step.jpg"
+      }, {
+        "name": "Stool",
+        "description": "A stool where patient sits while doctor examines him. It comes with a 360-degree rotating seat feature & single-pedal height adjustment",
+        "image": "stool.png"
+      }]
+    }, {
+      "category": "orthopaedic products",
+      "products": [{
+        "name": "Ankle supports",
+        "description": "An ankle brace is a garment that is worn around the ankle to protect it or for immobilization while allowing it to heal from sprains and other minor injuries. Ankle braces are used to immobilize the joint while providing heat and compression to the bones",
+        "image": "ankle-support.jpg"
+      }, {
+        "name": "knee support",
+        "description": "A garment which is worn around the knee and is designed to protect knees from injuries , to give support to knees that are already injured and to limit harmful knee movement while knee is healing",
+        "image": "knee-support.jpg"
+      }, {
+        "name": "wrist and forearm splints",
+        "description": "A garment that is worn around the wrist to protect it during strong use or for allowing it to heal. Wrist braces are common accessories in injury rehabilitation processes affecting the wrist. They immobilize the joint and provide heat and compression to the wrist bones and ligaments",
+        "image": "wrist-and-forearm-splints.jpg"
+      }, {
+        "name": "shoulder support",
+        "description": "",
+        "image": "shoulder-support.jpg"
+      }, {
+        "name": "pouch arm sling",
+        "description": "",
+        "image": "pouch-arm-sling.jpg"
+      }, {
+        "name": "finger splints",
+        "description": "",
+        "image": "finger-splints.jpg"
+      }, {
+        "name": "walking aid",
+        "description": "",
+        "image": "walking-aid.jpg"
+      }, {
+        "name": "stress relief ball",
+        "description": "",
+        "image": "stress-relief-ball.jpg"
+      }, {
+        "name": "air mattress",
+        "description": "",
+        "image": "air-mattress.png"
+      }, {
+        "name": "lung exerciser",
+        "description": "",
+        "image": "lung-exerciser.jpg"
+      }, {
+        "name": "crepe bandages",
+        "description": "",
+        "image": "crepe.jpg"
+      }]
+    }, {
+      "category": "pathology range",
+      "products": [{
+        "name": "urine specimen container",
+        "description": "",
+        "image": "urine-specimen-container.jpg"
+      }, {
+        "name": "stool specimen container",
+        "description": "",
+        "image": "stool-specimen-container.jpg"
+      }]
+    }, {
+      "category": "urology",
+      "products": [{
+        "name": "urine bag with bottom outlet",
+        "description": "Used to deliver a fixed volume of IV fluid at a fixed rate, usually with added medication.",
+        "image": "urine-bag-big1.png"
+      }, {
+        "name": "urine bag with measured volume meter",
+        "description": "Used to deliver a fixed volume of IV fluid at a fixed rate, usually with added medication.",
+        "image": "urine-bag-with-measured-volume-meter.jpg"
+      }, {
+        "name": "leg bag",
+        "description": "",
+        "image": "leg-bag.jpg"
+      }]
+    }]
+  },
+  {
+    "testimonials": [{
+      "comment": "Our interaction with Medic Satva was really good , the team gave us good support with all our queries . Truly professional people.",
+      "from": "NG, A Happy Customer",
+      "country": "Namibia"
+    }, {
+      "comment": "Medic Satva has great products to offer with good prices. Would definitely recommend them to people who are looking for Good quality products.",
+      "from": "DK, Doctor",
+      "country": "Zimbabwe"
+    }, {
+      "comment": "Fast Delivery and Good Quality products , Definitely a one stop solution for all Healthcare Needs.",
+      "from": "KW, Customer",
+      "country": "Kenya"
+    }, {
+      "comment": "Vast Range of products at best prices. Very Fast delivery.",
+      "from": "MT, Customer",
+      "country": "Congo"
+    }]
+  },
+  {
+    "queries": [{
+      "firstName": "dummy",
+      "lastName": "dummy",
+      "organization": "dummy",
+      "country": {
+        "name": "dummy",
+        "code": "dummy"
+      },
+      "emailId": "dummy",
+      "phoneNumber": "dummy",
+      "query": "dummy"
+    }]
+  },
+  {
+    "phoneCodes": {
+      "BD": "880",
+      "BE": "32",
+      "BF": "226",
+      "BG": "359",
+      "BA": "387",
+      "BB": "+1-246",
+      "WF": "681",
+      "BL": "590",
+      "BM": "+1-441",
+      "BN": "673",
+      "BO": "591",
+      "BH": "973",
+      "BI": "257",
+      "BJ": "229",
+      "BT": "975",
+      "JM": "+1-876",
+      "BV": "",
+      "BW": "267",
+      "WS": "685",
+      "BQ": "599",
+      "BR": "55",
+      "BS": "+1-242",
+      "JE": "+44-1534",
+      "BY": "375",
+      "BZ": "501",
+      "RU": "7",
+      "RW": "250",
+      "RS": "381",
+      "TL": "670",
+      "RE": "262",
+      "TM": "993",
+      "TJ": "992",
+      "RO": "40",
+      "TK": "690",
+      "GW": "245",
+      "GU": "+1-671",
+      "GT": "502",
+      "GS": "",
+      "GR": "30",
+      "GQ": "240",
+      "GP": "590",
+      "JP": "81",
+      "GY": "592",
+      "GG": "+44-1481",
+      "GF": "594",
+      "GE": "995",
+      "GD": "+1-473",
+      "GB": "44",
+      "GA": "241",
+      "SV": "503",
+      "GN": "224",
+      "GM": "220",
+      "GL": "299",
+      "GI": "350",
+      "GH": "233",
+      "OM": "968",
+      "TN": "216",
+      "JO": "962",
+      "HR": "385",
+      "HT": "509",
+      "HU": "36",
+      "HK": "852",
+      "HN": "504",
+      "HM": " ",
+      "VE": "58",
+      "PR": "+1-787 and 1-939",
+      "PS": "970",
+      "PW": "680",
+      "PT": "351",
+      "SJ": "47",
+      "PY": "595",
+      "IQ": "964",
+      "PA": "507",
+      "PF": "689",
+      "PG": "675",
+      "PE": "51",
+      "PK": "92",
+      "PH": "63",
+      "PN": "870",
+      "PL": "48",
+      "PM": "508",
+      "ZM": "260",
+      "EH": "212",
+      "EE": "372",
+      "EG": "20",
+      "ZA": "27",
+      "EC": "593",
+      "IT": "39",
+      "VN": "84",
+      "SB": "677",
+      "ET": "251",
+      "SO": "252",
+      "ZW": "263",
+      "SA": "966",
+      "ES": "34",
+      "ER": "291",
+      "ME": "382",
+      "MD": "373",
+      "MG": "261",
+      "MF": "590",
+      "MA": "212",
+      "MC": "377",
+      "UZ": "998",
+      "MM": "95",
+      "ML": "223",
+      "MO": "853",
+      "MN": "976",
+      "MH": "692",
+      "MK": "389",
+      "MU": "230",
+      "MT": "356",
+      "MW": "265",
+      "MV": "960",
+      "MQ": "596",
+      "MP": "+1-670",
+      "MS": "+1-664",
+      "MR": "222",
+      "IM": "+44-1624",
+      "UG": "256",
+      "TZ": "255",
+      "MY": "60",
+      "MX": "52",
+      "IL": "972",
+      "FR": "33",
+      "IO": "246",
+      "SH": "290",
+      "FI": "358",
+      "FJ": "679",
+      "FK": "500",
+      "FM": "691",
+      "FO": "298",
+      "NI": "505",
+      "NL": "31",
+      "NO": "47",
+      "NA": "264",
+      "VU": "678",
+      "NC": "687",
+      "NE": "227",
+      "NF": "672",
+      "NG": "234",
+      "NZ": "64",
+      "NP": "977",
+      "NR": "674",
+      "NU": "683",
+      "CK": "682",
+      "XK": "",
+      "CI": "225",
+      "CH": "41",
+      "CO": "57",
+      "CN": "86",
+      "CM": "237",
+      "CL": "56",
+      "CC": "61",
+      "CA": "1",
+      "CG": "242",
+      "CF": "236",
+      "CD": "243",
+      "CZ": "420",
+      "CY": "357",
+      "CX": "61",
+      "CR": "506",
+      "CW": "599",
+      "CV": "238",
+      "CU": "53",
+      "SZ": "268",
+      "SY": "963",
+      "SX": "599",
+      "KG": "996",
+      "KE": "254",
+      "SS": "211",
+      "SR": "597",
+      "KI": "686",
+      "KH": "855",
+      "KN": "+1-869",
+      "KM": "269",
+      "ST": "239",
+      "SK": "421",
+      "KR": "82",
+      "SI": "386",
+      "KP": "850",
+      "KW": "965",
+      "SN": "221",
+      "SM": "378",
+      "SL": "232",
+      "SC": "248",
+      "KZ": "7",
+      "KY": "+1-345",
+      "SG": "65",
+      "SE": "46",
+      "SD": "249",
+      "DO": "+1-809 and 1-829",
+      "DM": "+1-767",
+      "DJ": "253",
+      "DK": "45",
+      "VG": "+1-284",
+      "DE": "49",
+      "YE": "967",
+      "DZ": "213",
+      "US": "1",
+      "UY": "598",
+      "YT": "262",
+      "UM": "1",
+      "LB": "961",
+      "LC": "+1-758",
+      "LA": "856",
+      "TV": "688",
+      "TW": "886",
+      "TT": "+1-868",
+      "TR": "90",
+      "LK": "94",
+      "LI": "423",
+      "LV": "371",
+      "TO": "676",
+      "LT": "370",
+      "LU": "352",
+      "LR": "231",
+      "LS": "266",
+      "TH": "66",
+      "TF": "",
+      "TG": "228",
+      "TD": "235",
+      "TC": "+1-649",
+      "LY": "218",
+      "VA": "379",
+      "VC": "+1-784",
+      "AE": "971",
+      "AD": "376",
+      "AG": "+1-268",
+      "AF": "93",
+      "AI": "+1-264",
+      "VI": "+1-340",
+      "IS": "354",
+      "IR": "98",
+      "AM": "374",
+      "AL": "355",
+      "AO": "244",
+      "AQ": "",
+      "AS": "+1-684",
+      "AR": "54",
+      "AU": "61",
+      "AT": "43",
+      "AW": "297",
+      "IN": "91",
+      "AX": "+358-18",
+      "AZ": "994",
+      "IE": "353",
+      "ID": "62",
+      "UA": "380",
+      "QA": "974",
+      "MZ": "258"
+    }
+  }
+]

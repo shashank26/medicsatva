@@ -1,0 +1,14 @@
+<div id="product-view">
+    <div class="img" [style.background-image]="productView.image"></div>
+    <div class="info">
+      <div class="name">{{productView.name}}</div>
+      <div class="description">{{productView.description}}</div>
+      <div class="details">
+        <ul>
+          <li *ngFor="let detail of productView.details">
+            {{detail}}
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>

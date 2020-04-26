@@ -1,0 +1,47 @@
+$red: #FF383F;
+$white: #ffffff;
+$gray:#111;
+
+figure {
+  margin: 50px auto;
+  width: 400px;
+  text-align: center;
+  color: $white;
+}
+
+figcaption {
+  text-align: left;
+  background: $gray;
+  margin: 0 auto;
+}
+
+figcaption>div {
+  padding: 10px 15px;
+  border-right: 15px solid $red;
+}
+figcaption>div>div{
+  //opacity: 0;
+}
+
+figcaption .name {
+  font-family: Roboto-Thin;
+  font-size: 2em;
+  padding: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+figcaption .name::after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  height: 1px;
+  background: $red;
+  width: 100%;
+  left:0px;
+}
+
+figcaption .description {
+  font-family: Roboto-Light;
+  padding: 10px 0 0 0;
+}

@@ -1,0 +1,18 @@
+<div id="categories-view" @fade>
+  <div class="fade">
+    <div @cascade *ngIf="categoriesPhase == 0">
+      <div class="loading">
+        <div class="container">
+          <div class="loading-bar cascade"></div>
+          <div class="message cascade">Loading Categories...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" @cascade *ngIf="categoriesPhase == 1">
+      <div class="tile" *ngFor="let category of categories">
+        <app-tile-view [category]="category" (selectedCategory)="selectedCategory($event)"></app-tile-view>
+      </div>
+    </div>
+  </div>
+</div>

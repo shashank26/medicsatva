@@ -1,0 +1,257 @@
+$font-arca-bold: "arca-majora-bold";
+$font-arca-heavy: "arca-majora-heavy";
+$red: #ff383f;
+
+#intro {
+  transition: transform 1s ease-in-out;
+  background: #000;
+}
+
+.section,
+#foot {
+  height: 100vh;
+  width: 100%;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  background: #000;
+}
+
+.film {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 85px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+}
+
+.mini-intro {
+  background-image: url("/assets/background-images/stethoscope.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2, 1.2);
+  opacity: 0;
+}
+
+.testimonials {
+  background-image: url("/assets/background-images/testimonial3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2, 1.2);
+  opacity: 0;
+}
+
+.events {
+  background-image: url("/assets/background-images/news and events.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2, 1.2);
+  opacity: 0;
+}
+
+.foot {
+  transform: scale(1.2, 1.2);
+}
+
+.section .content span {
+  color: white;
+  text-shadow: 0 0 1px #000;
+  font-family: $font-arca-heavy;
+  font-size: 2em;
+}
+
+
+#testimonials .header {
+  text-align: left;
+  font-size: 2em;
+  font-family: $font-arca-heavy;
+  color: #fff;
+}
+
+.dots {
+  margin: 10px 0;
+  list-style-type: none;
+  padding: 0px;
+  display: block;
+  text-align: center;
+}
+
+.dots li {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.active {
+  background: $red;
+}
+
+
+.scroll.bottom {
+  bottom: 0px;
+}
+
+.scroll.top {
+  top: 85px;
+}
+
+.scroll-container {
+  display: inline-block;
+}
+
+
+.scroll-icon .fa {
+  font-size: 2em;
+}
+
+.scroll-to {
+  color: white;
+  font-family: $font-arca-bold;
+  padding: 10px 0;
+  transition: color 1s ease-in-out;
+}
+
+.scroll.bottom .scroll-container:hover .scroll-icon {
+  border-bottom: 2px solid $red;
+}
+
+.scroll.bottom .scroll-container:hover .fa {
+  animation: move-down 1s infinite ease-in-out;
+}
+
+.scroll.bottom .scroll-container:hover .scroll-to {
+  color: $red;
+}
+
+.scroll.top .scroll-container:hover .scroll-icon {
+  border-top: 2px solid $red;
+}
+
+.scroll.top .scroll-container:hover .fa {
+  animation: move-up 1s infinite ease-in-out;
+}
+
+.scroll.top .scroll-container:hover .scroll-to {
+  color: $red;
+}
+
+@keyframes move-down {
+  from {
+    transform: translateY(-40px);
+    color: $red;
+  }
+
+  to {
+    transform: translateY(40px);
+    color: $red;
+  }
+}
+
+@keyframes move-up {
+  from {
+    transform: translateY(40px);
+    color: $red;
+  }
+
+  to {
+    transform: translateY(-40px);
+    color: $red;
+  }
+}
+
+
+.animate-bg {
+  opacity: 1;
+  transform: scale(1, 1);
+  z-index: 99;
+}
+
+
+
+@mixin styling($scrollhw,$heading-size,$box-right-width,$box-right-height,$content-width) {
+
+  
+.section .content span {
+  color: white;
+  text-shadow: 0 0 1px #000;
+  font-family: $font-arca-heavy;
+  font-size: $heading-size;
+}
+
+  .section .content {
+    margin: 0 auto;
+    z-index: 1;
+    width: $content-width;
+  }
+
+  .film .container {
+    width: 100%;
+    text-align: right;
+  }
+
+  .container .box-right {
+    width: $box-right-width;
+    display: inline-block;
+    position: relative;
+    height: $box-right-height;
+  }
+
+
+  .events .box-right {
+    height: $box-right-height;
+    overflow: hidden;
+  }
+
+  .scroll {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+
+    left: calc(50% - 100px);
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 0 1px #333;
+  }
+
+
+  .scroll-icon {
+    height: $scrollhw;
+    width: $scrollhw;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid white;
+    text-align: center;
+    line-height: $scrollhw + 10px;
+    color: white;
+    transition: border 1s ease-in-out;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  @include styling($scrollhw:60px,$heading-size:2em,$box-right-width:50%,$box-right-height:40vh,$content-width:60%);
+}
+
+@media screen and (min-width: 769px) and (max-width:1199px) {
+
+  @include styling($scrollhw:50px,$heading-size:1.7em,$box-right-width:70%,$box-right-height:40vh,$content-width:80%);
+}
+
+@media screen and (max-width:768px) {
+
+  @include styling($scrollhw:40px,$heading-size:1.2em,$box-right-width:100%,$box-right-height:calc(100vh - 300px),$content-width:90%);
+
+}

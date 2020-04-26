@@ -1,0 +1,57 @@
+$backgroundTransparent:rgba(0, 0, 0, 0.4);
+$font-arca-bold:'arca-majora-bold';
+$font-arca-heavy : 'arca-majora-heavy';
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 300px;
+  left: 0px;
+  top:49px;
+  box-shadow: 0 0 50px $backgroundTransparent;
+  background: black;
+  max-height: calc(39px * 6);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 99;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:black; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #aaa; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+  width: calc(100% - 5px);
+  padding: 5px;
+  font-family: $font-arca-bold;
+  font-size: 0.9em;
+  color: white;
+  text-align: left;
+  transition: all 0.3s;
+  cursor: pointer;
+
+}
+
+li:hover {
+  background: white;
+  color: black;
+}

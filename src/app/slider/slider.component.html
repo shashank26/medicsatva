@@ -1,0 +1,104 @@
+<div id="intro">
+
+  <div class="section mini-intro" id="mini-intro" [ngClass]="{'animate-bg' : navigationPointer == 0}">
+    <div class="film">
+      <div class="content">
+        <span>
+          Medic Satva is one point destination for all your Healthcare needs :
+          <br />
+          Medical Devices to Supplies we take care of everything
+          because you deserve to be happy and blessed.
+        </span>
+      </div>
+      <div class="scroll bottom">
+        <div class="scroll-container" (click)="navigateTo('testimonials')">
+          <div class="scroll-icon">
+            <div class="fa fa-angle-double-down "></div>
+          </div>
+          <div class="scroll-to">Testimonials</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section testimonials" id="testimonials" [ngClass]="{'animate-bg' : navigationPointer == 1}">
+    <div class="film">
+      <div class="scroll top">
+        <div class="scroll-container" (click)="navigateTo('mini-intro')">
+          <div class="scroll-to">Banner</div>
+          <div class="scroll-icon">
+            <div class="fa fa-angle-double-up "></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box-right">
+          <div class="header">
+            <!-- Testimonials -->
+          </div>
+          <ul class="dots">
+            <li *ngFor="let t of testimonials">
+              <div class="dot" [ngClass]="{'active' : t == testimonial }"></div>
+            </li>
+          </ul>
+          <div class="testimonial-content" *ngIf="!hide">
+            <app-testimonials [testimonial]="testimonial"></app-testimonials>
+          </div>
+        </div>
+      </div>
+      <div class="scroll bottom">
+        <div class="scroll-container" (click)="navigateTo('events')">
+          <div class="scroll-icon">
+            <div class="fa fa-angle-double-down "></div>
+          </div>
+          <div class="scroll-to">Events and News</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section events" id="events" [ngClass]="{'animate-bg' : navigationPointer == 2}">
+    <div class="film">
+      <div class="scroll top">
+        <div class="scroll-container" (click)="navigateTo('testimonials')">
+          <div class="scroll-to">Testimonials</div>
+          <div class="scroll-icon">
+            <div class="fa fa-angle-double-up "></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box-right">
+          <div class="header">
+            <!-- Science Daily Feed -->
+          </div>
+          <div class="scienceFeedDaily-content">
+            <app-science-daily-feeds *ngFor="let scienceDailyFeed of scienceDailyFeeds" [scienceDailyFeed]="scienceDailyFeed"></app-science-daily-feeds>
+          </div>
+        </div>
+      </div>
+      <div class="scroll bottom">
+        <div class="scroll-container" (click)="navigateTo('foot')">
+          <div class="scroll-icon">
+            <div class="fa fa-angle-double-down "></div>
+          </div>
+          <div class="scroll-to">More...</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="foot" [ngClass]="{'animate-bg' : navigationPointer == 3}">
+    <div class="scroll top">
+      <div class="scroll-container" (click)="navigateTo('events')">
+        <div class="scroll-to">Events and News</div>
+        <div class="scroll-icon">
+          <div class="fa fa-angle-double-up "></div>
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </div>
+
+</div>

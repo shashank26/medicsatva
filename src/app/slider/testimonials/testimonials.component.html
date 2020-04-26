@@ -1,0 +1,9 @@
+<div class="testimonial">
+  <div @cascade *ngIf="testimonial">
+    <div class="comment testimonial-info">{{testimonial.comment}}</div>
+    <div class="person">
+      <div class="from testimonial-info">{{testimonial.from}}, </div>
+      <div class="country testimonial-info">{{testimonial.country}}</div>
+    </div>
+  </div>
+</div>
